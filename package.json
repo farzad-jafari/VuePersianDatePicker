@@ -1,8 +1,7 @@
 {
   "name": "vue-persian-date-picker",
   "version": "0.0.1",
-  "description": "This Date picker work with Iranian calendar in Vue (version2)",
-  "main": "index.js",
+  "description": "This Date picker work with Iranian calendar in Vue (version2)",  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
