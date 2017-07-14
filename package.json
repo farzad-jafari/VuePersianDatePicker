@@ -1,0 +1,45 @@
+{
+  "name": "vue-persian-date-picker",
+  "version": "0.0.1",
+  "description": "This Date picker work with Iranian calendar in Vue (version2)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farzad-jafari/VuePersianDatePicker.git"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "persian-date-picker",
+    "vue-persian-datetime-picker",
+    "vue-persian-date-picker"
+  ],
+  "author": "farzad jafari (f.jafari8990@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/farzad-jafari/VuePersianDatePicker/issues"
+  },
+  "homepage": "https://github.com/farzad-jafari/VuePersianDatePicker#readme",
+  "dependencies": {
+    "persian-datepicker": "^0.4.5"
+  },
+  
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ],
+      [
+        "vueify"
+      ]
+    ]
+  }
+}
