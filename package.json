@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/farzad-jafari/VuePersianDatePicker#readme",
   "dependencies": {
-    "persian-datepicker": "^0.4.5"
+    "persian-datepicker": "^0.4.5",
+    "vue-form-generator": "^2.0.0"
   },
-  
   "browserify": {
     "transform": [
       [

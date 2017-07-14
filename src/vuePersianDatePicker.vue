@@ -3,10 +3,13 @@
 </template>
 
 <script>
-import persianDate from 'persian-date';
-import persianDatepicker from 'persian-datepicker';
+// import persianDate from 'persian-date';
+// import persianDatepicker from 'persian-datepicker';
+import vueFormGen from 'vue-form-generator'
 export default {
-
+  components:{
+    vueFormGen 
+  }
 }
 </script>
 
